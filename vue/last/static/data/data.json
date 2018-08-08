@@ -1,0 +1,93 @@
+{
+    "fruits": [{
+        "img": "https://fms-image.missfresh.cn/3cc9c73b53c34fc4b21f54ea10b93f3a.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "越南红肉mini火龙果320g*1个",
+        "spans": "一手能掌握的红肉心",
+        "examine": "100%第三方权威检测",
+        "price": 5.9,
+        "maxprice": 11.9,
+        "count": 0,
+        "id": 1,
+        "name": "fruits"
+    }, {
+        "img": "https://fms-image.missfresh.cn/b01c00356e834275a68dc011a052d805.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "千禧小番茄500g*1盒",
+        "spans": "一千个喜事 不如一颗甜甜的我",
+        "examine": "100%第三方权威检测",
+        "price": 8.9,
+        "maxprice": 11.9,
+        "count": 0,
+        "id": 1,
+        "name": "fruits"
+    }, {
+        "img": "https://fms-image.missfresh.cn/491833ff34fc4de783b5baaf8b3bff2b.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "【热卖】北纬23度蜜瓜2.4-3.5斤*1个",
+        "spans": "一手能掌握的红肉心",
+        "examine": "100%第三方权威检测",
+        "price": 29.9,
+        "maxprice": "",
+        "count": 0,
+        "id": 1,
+        "name": "fruits"
+    }, {
+        "img": "https://fms-image.missfresh.cn/373388e42a3241c08edb1d1553e72f01.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "进口牛油果125g起*2个",
+        "spans": "一手能掌握的红肉心",
+        "examine": "100%第三方权威检测",
+        "price": 14.9,
+        "maxprice": 19.9,
+        "count": 0,
+        "id": 1,
+        "name": "fruits"
+    }],
+    "vegetables": [{
+        "img": "https://image.missfresh.cn/8453964528fe460a96d1bcef6ec857d3.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "黄心土豆500g（约2-4个）",
+        "spans": "能把我做难吃也是一种挑战",
+        "examine": "100%第三方权威检测",
+        "price": 5.9,
+        "maxprice": 11.9,
+        "count": 0,
+        "id": 1,
+        "name": "vegetables"
+    }, {
+        "img": "http://missfresh-fms.ufile.ucloud.cn/1fd403f7e681470396145d4a8353b7cd.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "白萝卜450g",
+        "spans": "菜市场上的“平价人参”",
+        "examine": "100%第三方权威检测",
+        "price": 8.9,
+        "maxprice": 11.9,
+        "count": 0,
+        "id": 1,
+        "name": "vegetables"
+    }, {
+        "img": "https://fms-image.missfresh.cn/c0359c33a5c8440aa6772d8da42fe037.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "越南紫薯400g",
+        "spans": "个儿娇小 甜糯超过你想像",
+        "examine": "100%第三方权威检测",
+        "price": 29.9,
+        "maxprice": "",
+        "count": 0,
+        "id": 1,
+        "name": "vegetables"
+    }, {
+        "img": "https://fms-image.missfresh.cn/17b687ec57664ee5852409e9be7c0a02.jpg?iopcmd=thumbnail&type=4&width=200",
+        "title": "湖南江永供港散花菜350g",
+        "spans": "花球松而不散 炒制易入味",
+        "examine": "红包不可用",
+        "price": 14.9,
+        "maxprice": 19.9,
+        "count": 0,
+        "id": 1,
+        "name": "vegetables"
+    }],
+    "foods": [
+
+    ],
+    "grain": [
+
+    ],
+    "dairy": [
+
+    ]
+}

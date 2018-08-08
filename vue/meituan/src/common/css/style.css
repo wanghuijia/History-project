@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: .6rem;
+  background: #06c1ae;
+  border-bottom: solid 1px #21897d;
+}
+
+header .iconfont {
+  justify-content: flex-start;
+  margin-left: .2rem;
+  font-size: .4rem;
+  margin-top: .1rem;
+  color: #fff;
+}
+
+header h6 {
+  flex: 1;
+  text-align: center;
+}
+
+.ols {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  height: 1rem;
+  line-height: 1rem;
+  border-bottom: solid 1px #ccc;
+}
+
+.ols li {
+  flex: 1;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: .4rem;
+}
+
+section {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  flex: 1;
+  display: flex;
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.left ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left ul li {
+  width: 100%;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  background: #f1f1f1;
+  border-bottom: solid 1px #bfbfbf;
+}
+
+.right {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.right dl {
+  width: 96%;
+  padding: 0 2%;
+  height: 2rem;
+  display: flex;
+  margin-top: .4rem;
+  border-bottom: solid 1px #ccc;
+  padding-bottom: .2rem;
+  flex-shrink: 0;
+}
+
+.right dl dt {
+  width: 23%;
+  padding: 0 1%;
+}
+
+.right dl dt img {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.right dl dd {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right dl dd h6 {
+  font-size: .4rem;
+  font-weight: 100;
+  line-height: .6rem;
+}
+
+.right dl dd > span {
+  font-size: .3rem;
+  color: #ccc;
+  line-height: .5rem;
+}
+
+.right dl dd .btm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  margin-bottom: .1rem;
+}
+
+.right dl dd .btm > span {
+  font-size: .35rem;
+  font-weight: 600;
+  color: #fe4d3d;
+}
+
+.right dl dd .btm p {
+  display: flex;
+}
+
+.right dl dd .btm p span {
+  display: block;
+  width: .5rem;
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .4rem;
+}
+
+.right dl dd .btm p span:nth-child(1),
+.right dl dd .btm p span:nth-child(3) {
+  background: orange;
+  border-radius: 50%;
+  padding-bottom: .03rem;
+  font-weight: 800;
+}
+
+section > h6 {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: .3rem;
+  font-weight: 100;
+}
+
+section > h6 span {
+  flex: 1;
+  text-align: center;
+}
+
+section > h6 .iconfont {
+  justify-content: flex-end;
+  margin-right: .2rem;
+  font-size: .35rem;
+}
+
+.link1 {
+  height: 1rem;
+  line-height: 1rem;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.router-link-active {
+  border-bottom: solid 2px #30C37C;
+  color: #30C37C;
+}
+
+.bottom dl dd p {
+  line-height: 1rem;
+}
+
+footer {
+  width: 100%;
+  height: 1rem;
+  background: #FAA716;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  flex-shrink: 0;
+  align-items: center;
+  color: #fff;
+  font-size: .35rem;
+}
+
+.left li.active {
+  color: orange;
+  border-bottom-color: #30C37C;
+  background: #fff;
+}

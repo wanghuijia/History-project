@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: .6rem;
+    img {
+        width: 15%;
+        margin: 0 3%;
+    }
+    span {
+        margin: 0 2%;
+        font-size: .35rem;
+        flex-shrink: 0;
+    }
+    input {
+        flex: 1;
+        margin: 0 1rem;
+        height: .6rem;
+        padding-left: .3rem;
+        border-radius: .2rem;
+        border: solid 1px #ccc;
+        font-size: .35rem;
+    }
+}
+
+.uls {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: .1rem;
+    li {
+        flex: 1;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        flex-shrink: 0;
+        font-size: .4rem;
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+    dl {
+        margin: .2rem 0;
+        width: 100%;
+        height: 3.5rem;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px #ccc;
+        dt {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 85%;
+                height: 80%;
+            }
+        }
+        dd {
+            flex: 1;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            h6 {
+                margin-top: .3rem;
+                font-size: .4rem;
+            }
+            p:nth-child(2) {
+                line-height: .8rem;
+                font-size: .35rem;
+                color: #ccc;
+            }
+            >span {
+                color: rgb(255, 72, 145);
+                line-height: .8rem;
+                width: auto;
+            }
+        }
+    }
+}
+
+.bot {
+    width: 94%;
+    flex: 1;
+    padding: 0 3%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    p:nth-child(1) {
+        span:nth-child(1) {
+            color: rgb(255, 72, 145);
+            font-size: .4rem;
+        }
+    }
+    p:nth-child(2) {
+        span {
+            margin: 0 .1rem;
+            color: #000;
+        }
+        .spana {
+            padding: .05rem .2rem;
+            border: solid 1px rgb(255, 72, 145);
+            color: rgb(255, 72, 145);
+            border-radius: 50%;
+        }
+    }
+}
+
+section>h6 {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: .3rem;
+    font-weight: 100;
+    span {
+        flex: 1;
+        text-align: center;
+    }
+    .iconfont {
+        justify-content: flex-end;
+        margin-right: .2rem;
+        font-size: .35rem;
+    }
+}
+
+.link1 {
+    height: 1rem;
+    line-height: 1rem;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+footer .router-link-active {
+    color: #30C37C;
+}
+
+section .router-link-active {
+    color: #ff4891;
+    border-bottom: solid 2px #ff4891;
+}
+
+.bottom {
+    width: 100%;
+    height: 1rem;
+    background: #FAA716;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 1.2rem;
+    flex-shrink: 0;
+    align-items: center;
+    color: #fff;
+    font-size: .4rem;
+    display: none;
+    line-height: 1rem;
+    span:nth-child(2) {
+        float: right;
+    }
+}
+
+footer {
+    width: 100%;
+    z-index: 9999;
+    height: 1.2rem;
+    border-top: solid 1px #666;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .2rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    align-items: center;
+    font-size: .35rem;
+    dl {
+        flex: 1;
+        text-align: center;
+        .iconfont {
+            font-size: .45rem;
+        }
+    }
+}
+
+.left li.active {
+    color: orange;
+    border-bottom-color: #30C37C;
+    background: #fff;
+}
