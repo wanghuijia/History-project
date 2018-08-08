@@ -1,0 +1,6 @@
+[
+    { "user": "王汇甲", "age": "20", "hobby": "学习", "img": "./src/img/1.jpg" },
+    { "user": "王汇甲", "age": "20", "hobby": "学习", "img": "./src/img/2.jpg" },
+    { "user": "王汇甲", "age": "20", "hobby": "学习", "img": "./src/img/3.jpg" },
+    { "user": "王汇甲", " age": "20", "hobby": "学习", "img": "./src/img/4.jpg" }
+]
